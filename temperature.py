@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-def convert():
+def convert(event):
     num = int(number.get())
     
     if con_var.get() == 1:
@@ -14,7 +14,6 @@ def convert():
     
     else:
             result_l.config(text = "Please select a conversion option.")
-
 
 root = tk.Tk()
 con_var = tk.IntVar()
@@ -36,5 +35,7 @@ convert_b.grid(row = 3, column = 0, columnspan = 2)
 
 result_l = ttk.Label(root, text = "")
 result_l.grid(row = 4, column = 0, columnspan = 2)
+
+root.bind("<Return>", convert)
 
 root.mainloop()

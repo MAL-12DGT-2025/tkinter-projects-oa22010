@@ -3,7 +3,7 @@ from tkinter import ttk
 
 def press(button):
     current = equation.get()
-    current = current + button
+    current += button
     equation.set(current)
 
 def clear():

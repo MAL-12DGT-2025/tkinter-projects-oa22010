@@ -10,8 +10,11 @@ def clear():
     equation.set("")
 
 def calculate():
-    result = eval(equation.get())
-    equation.set(result)
+    try:
+        result = eval(equation.get())
+        equation.set(result)
+    except SyntaxError:
+        equation.set("Syntax Error")
 
 root = tk.Tk()
 

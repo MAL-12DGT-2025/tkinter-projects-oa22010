@@ -49,34 +49,34 @@ amount_text.grid(row = 0, column = 1, padx = 10, pady = 10)
 cost_text = ttk.Label(root, text = "Cost each:")
 cost_text.grid(row = 0, column = 2, padx = 10, pady = 10)
 
-lemonade_button = tk.Button(root, text = "Lemonade ($2)", command = click_1)
+lemonade_button = ttk.Button(root, text = "Lemonade ($2)", command = click_1)
 lemonade_button.grid(row = 1, column = 0, padx = 1, pady = 1)
 
-ice_button = tk.Button(root, text = "Ice (50c)", command = click_5)
+ice_button = ttk.Button(root, text = "Ice (50c)", command = click_5)
 ice_button.grid(row = 5, column = 0, padx = 1, pady = 1)
 
-straw_button = tk.Button(root, text = "Straw (50c)", command = click_4)
+straw_button = ttk.Button(root, text = "Straw (50c)", command = click_4)
 straw_button.grid(row = 4, column = 0, padx = 1, pady = 1)
 
-pink_button = tk.Button(root, text = "Pink flavor ($1)", command = click_2)
+pink_button = ttk.Button(root, text = "Pink flavor ($1)", command = click_2)
 pink_button.grid(row = 2, column = 0, padx = 1, pady = 1)
 
-large_button = tk.Button(root, text = "Large cup ($1)", command = click_3)
+large_button = ttk.Button(root, text = "Large cup ($1)", command = click_3)
 large_button.grid(row = 3, column = 0, padx = 1, pady = 1)
 
-amount_enter_a = ttk.Label(root, text = "", width = 5)
+amount_enter_a = ttk.Label(root, text = "0", width = 5)
 amount_enter_a.grid(row = 1, column = 1, padx = 5, pady = 1)
 
-amount_enter_b = ttk.Label(root, text = "", width = 5)
+amount_enter_b = ttk.Label(root, text = "0", width = 5)
 amount_enter_b.grid(row = 2, column = 1, padx = 5, pady = 1)
 
-amount_enter_c = ttk.Label(root, text = "", width = 5)
+amount_enter_c = ttk.Label(root, text = "0", width = 5)
 amount_enter_c.grid(row = 3, column = 1, padx = 5, pady = 1)
 
-amount_enter_d = ttk.Label(root, text = "", width = 5)
+amount_enter_d = ttk.Label(root, text = "0", width = 5)
 amount_enter_d.grid(row = 4, column = 1, padx = 5, pady = 1)
 
-amount_enter_e = ttk.Label(root, text = "", width = 5)
+amount_enter_e = ttk.Label(root, text = "0", width = 5)
 amount_enter_e.grid(row = 5, column = 1, padx = 5, pady = 1)
 
 cost_text_a = ttk.Label(root, text = "$2")
@@ -94,7 +94,7 @@ cost_text_d.grid(row = 4, column = 2, padx = 5, pady = 1)
 cost_text_e = ttk.Label(root, text = "$1")
 cost_text_e.grid(row = 5, column = 2, padx = 5, pady = 1)
 
-total_text = tk.Label(root, text = "Total:")
+total_text = ttk.Label(root, text = "Total: $0.0")
 total_text.grid(row = 6, column = 0, columnspan = 3, padx = 10, pady = 10)
 
 calculate_button = ttk.Button(root, text = "Complete Order:", command = calculate)

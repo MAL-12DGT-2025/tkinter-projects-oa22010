@@ -1,16 +1,22 @@
+# Import the tkinter module
+# Import the ttk module from tkinter
 import tkinter as tk
 from tkinter import ttk
 
+# Create the window
 root = tk.Tk()
 
+# Title of the window
 root.title("Lemonade stand")
 
+# Variables of amount of each item
 amount_1 = 0
 amount_2 = 0
 amount_3 = 0
 amount_4 = 0
 amount_5 = 0
 
+# Functions for each button
 def click_1():
     global amount_1
     amount_1 += 1
@@ -36,10 +42,12 @@ def click_5():
     amount_5 += 1
     amount_enter_e.config(text = f"{amount_5}")
 
+# Function to calculate the total
 def calculate():
     total = amount_1 * 2 + amount_2 + amount_3 + amount_4 / 2 + amount_5 / 2
     total_text.config(text = f"Total: ${total}")
 
+# Create and place the widgets
 select_text = ttk.Label(root, text = "Select items:")
 select_text.grid(row = 0, column = 0, padx = 10, pady = 10)
 
@@ -100,4 +108,5 @@ total_text.grid(row = 6, column = 0, columnspan = 3, padx = 10, pady = 10)
 calculate_button = ttk.Button(root, text = "Complete Order:", command = calculate)
 calculate_button.grid(row = 7, column = 0, columnspan = 3, padx = 10, pady = 10)
 
+# Start the main loop
 root.mainloop()

@@ -15,25 +15,25 @@
                         <mxPoint x="70" y="250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Lemonade ($2)" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
+                <mxCell id="7" value="Lemonade" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="165" y="350" width="86" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="140" y="359" width="14" height="14" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Ice (50c)" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
+                <mxCell id="9" value="Ice" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="165" y="390" width="86" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="140" y="399" width="14" height="14" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Straw (50c)" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
+                <mxCell id="11" value="Straw" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="165" y="430" width="86" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="140" y="439" width="14" height="14" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Large cup ($1)" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
+                <mxCell id="13" value="Large cup" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="165" y="470" width="86" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
@@ -109,7 +109,7 @@
                 <mxCell id="15" value="Total cost:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="300" y="590" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Pink flavour ($1)" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
+                <mxCell id="36" value="Pink flavour" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" parent="1" vertex="1">
                     <mxGeometry x="160" y="517" width="91" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" parent="1" vertex="1">
@@ -127,25 +127,25 @@
                 <mxCell id="42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="305" y="519" width="70" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="43" value="$2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="348" width="70" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="44" value="50c" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="402" y="393" width="70" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="45" value="50c" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="402" y="437" width="70" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="46" value="$1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="480" width="70" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="47" value="$1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="523" width="70" height="29" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="Entry" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="540" y="393" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="Complete Order" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=10;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="49" value="Complete Order" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=10;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="280" y="560" width="95" height="15" as="geometry"/>
                 </mxCell>
             </root>

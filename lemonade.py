@@ -21,26 +21,31 @@ def add_1():
     global amount_1
     amount_1 += 1
     amount_enter_a.config(text = f"{amount_1}")
+    calculate()
 
 def add_2():
     global amount_2
     amount_2 += 1
     amount_enter_b.config(text = f"{amount_2}")
+    calculate()
 
 def add_3():
     global amount_3
     amount_3 += 1
     amount_enter_c.config(text = f"{amount_3}")
+    calculate()
 
 def add_4():
     global amount_4
     amount_4 += 1
     amount_enter_d.config(text = f"{amount_4}")
+    calculate()
 
 def add_5():
     global amount_5
     amount_5 += 1
     amount_enter_e.config(text = f"{amount_5}")
+    calculate()
 
 # Function for each less button
 def less_1():
@@ -50,6 +55,7 @@ def less_1():
         amount_enter_a.config(text = f"{amount_1}")
     else:
         amount_1 = amount_1
+    calculate()
 
 def less_2():
     global amount_2
@@ -58,6 +64,7 @@ def less_2():
         amount_enter_b.config(text = f"{amount_2}")
     else:
         amount_2 = amount_2
+    calculate()
 
 def less_3():
     global amount_3
@@ -66,6 +73,7 @@ def less_3():
         amount_enter_c.config(text = f"{amount_3}")
     else:
         amount_3 = amount_3
+    calculate()
 
 def less_4():
     global amount_4
@@ -74,6 +82,7 @@ def less_4():
         amount_enter_d.config(text = f"{amount_4}")
     else:
         amount_4 = amount_4
+    calculate()
 
 def less_5():
     global amount_5
@@ -82,6 +91,7 @@ def less_5():
         amount_enter_e.config(text = f"{amount_5}")
     else:
         amount_5 = amount_5
+    calculate()
 
 # Function to calculate the total
 def calculate():
@@ -164,7 +174,7 @@ cost_text_e.grid(row = 5, column = 3, padx = 5, pady = 1)
 total_text = ttk.Label(root, text = "Total: $0.0")
 total_text.grid(row = 6, column = 1, columnspan = 2, padx = 10, pady = 10)
 
-calculate_button = ttk.Button(root, text = "Complete Order:", command = calculate)
+calculate_button = ttk.Button(root, text = "Complete Order:", command = root.quit)
 calculate_button.grid(row = 7, column = 1, columnspan = 2, padx = 10, pady = 10)
 
 # Start the main loop

@@ -16,7 +16,7 @@ amount_3 = 0
 amount_4 = 0
 amount_5 = 0
 
-# Functions for each button
+# Functions for each add button
 def add_1():
     global amount_1
     amount_1 += 1
@@ -42,6 +42,7 @@ def add_5():
     amount_5 += 1
     amount_enter_e.config(text = f"{amount_5}")
 
+# Function for each less button
 def less_1():
     global amount_1
     if amount_1 > 0:

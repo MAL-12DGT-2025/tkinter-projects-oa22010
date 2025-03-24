@@ -174,7 +174,7 @@ cost_text_e.grid(row = 5, column = 3, padx = 5, pady = 1)
 total_text = ttk.Label(root, text = "Total: $0.0")
 total_text.grid(row = 6, column = 1, columnspan = 2, padx = 10, pady = 10)
 
-calculate_button = ttk.Button(root, text = "Complete Order:", command = root.quit)
+calculate_button = ttk.Button(root, text = "Complete Order", command = root.quit)
 calculate_button.grid(row = 7, column = 1, columnspan = 2, padx = 10, pady = 10)
 
 # Start the main loop

@@ -159,16 +159,16 @@ amount_enter_e.grid(row = 5, column = 2, padx = 5, pady = 1)
 cost_text_a = ttk.Label(root, text = "$2")
 cost_text_a.grid(row = 1, column = 3, padx = 5, pady = 1)
 
-cost_text_b = ttk.Label(root, text = "50c")
+cost_text_b = ttk.Label(root, text = "$1")
 cost_text_b.grid(row = 2, column = 3, padx = 5, pady = 1)
 
-cost_text_c = ttk.Label(root, text = "50c")
+cost_text_c = ttk.Label(root, text = "$1")
 cost_text_c.grid(row = 3, column = 3, padx = 5, pady = 1)
 
-cost_text_d = ttk.Label(root, text = "$1")
+cost_text_d = ttk.Label(root, text = "50c")
 cost_text_d.grid(row = 4, column = 3, padx = 5, pady = 1)
 
-cost_text_e = ttk.Label(root, text = "$1")
+cost_text_e = ttk.Label(root, text = "50c")
 cost_text_e.grid(row = 5, column = 3, padx = 5, pady = 1)
 
 total_text = ttk.Label(root, text = "Total: $0.0")
